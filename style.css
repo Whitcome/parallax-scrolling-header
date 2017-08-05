@@ -17,6 +17,7 @@ html, body {
     width: inherit;
     height: inherit;
     display: table;
+    will-change: transform;
 }
 #header__centered {
     display: table-cell;
