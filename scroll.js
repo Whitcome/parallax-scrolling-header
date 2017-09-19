@@ -1,14 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const moving__background = document.querySelector('#header__background');
+    const moving__background = $("#header__background");
 
-    window.addEventListener( 'scroll', function() {
-        ParallaxAnimation( moving__background );
+    window.addEventListener('scroll', function() {
+        ParallaxAnimation(moving__background);
     });
 });
 
-function ParallaxAnimation( el ) {
-    let scrollTop = document.body.scrollTop;
-
-    el.style.marginTop = (scrollTop / 3) + 'px';
-    el.style.opacity = (1 - scrollTop / el.offsetHeight );
+function ParallaxAnimation(el) {
+    el.css('margin-top', ($(window).scrollTop())/3); // Parallax scrolling
+    el.css('opacity', 1 - ($(window).scrollTop())/el.height()); // Fading out
 };
