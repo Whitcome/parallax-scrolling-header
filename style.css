@@ -6,6 +6,32 @@ html, body {
     margin: 0;
 }
 
+#davidwhitcome__code {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: #e0e0e0;
+    text-align: center;
+    line-height: 50px;
+    color: #222222;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#davidwhitcome__code a {
+    text-decoration: none;
+    color: #004c8c;
+}
+
+@media screen and (max-width: 385px) {
+    #davidwhitcome__code {
+        line-height: 25px;
+    }
+}
+
 #header {
     width: 100%;
     height: 600px;
