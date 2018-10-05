@@ -1,0 +1,92 @@
+html {
+    font-family: 'Arial', sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+#davidwhitcome__code {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: #e0e0e0;
+    text-align: center;
+    line-height: 50px;
+    color: #222222;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#davidwhitcome__code a {
+    text-decoration: none;
+    color: #004c8c;
+}
+
+@media screen and (max-width: 385px) {
+    #davidwhitcome__code {
+        line-height: 25px;
+    }
+}
+
+#header {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background: #000;    
+}
+
+#header__background {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    width: inherit;
+    height: inherit;
+    will-change: transform;
+}
+
+#header__centered {
+    z-index: 1;
+    height: 600px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    top: 0;
+    display: table;
+}
+
+#centered__contents {
+    width: 100%;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#centered__contents > img {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+#centered__contents > h1 {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.inner {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.inner > p {
+    font-size: 16px;
+    line-height: 40px;
+}
