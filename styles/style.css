@@ -6,7 +6,7 @@ html, body {
     margin: 0;
 }
 
-#davidwhitcome__code {
+#davidwhitcome-code {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -21,13 +21,13 @@ html, body {
     font-weight: bold;
 }
 
-#davidwhitcome__code a {
+#davidwhitcome-code a {
     text-decoration: none;
     color: #004c8c;
 }
 
 @media screen and (max-width: 385px) {
-    #davidwhitcome__code {
+    #davidwhitcome-code {
         line-height: 25px;
     }
 }
@@ -39,7 +39,7 @@ html, body {
     background: #000;    
 }
 
-#header__background {
+#header-background {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: 50% 70%;
@@ -48,7 +48,7 @@ html, body {
     will-change: transform;
 }
 
-#header__centered {
+#header-centered {
     z-index: 1;
     height: 600px;
     position: absolute;
@@ -59,14 +59,14 @@ html, body {
     display: table;
 }
 
-#centered__contents {
+#centered-contents {
     width: 100%;
     margin: 0 auto;
     display: table-cell;
     vertical-align: middle;
 }
 
-#centered__contents > img {
+#centered-contents > img {
     display: block;
     margin: 0 auto;
     width: 130px;
@@ -74,7 +74,7 @@ html, body {
     border-radius: 100%;
 }
 
-#centered__contents > h1 {
+#centered-contents > h1 {
     font-size: 2em;
     color: #fff;
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);

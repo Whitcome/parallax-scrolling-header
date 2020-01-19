@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    let moving__background = document.getElementById('header__background');
-    ParallaxAnimation(moving__background);
+    let movingBackground = document.getElementById('header-background');
+    ParallaxAnimation(movingBackground);
 });
 
 function ParallaxAnimation(el) {
@@ -9,7 +9,7 @@ function ParallaxAnimation(el) {
             el.style.marginTop = window.pageYOffset/3 + 'px';
         }
         else {
-            moving__background.style.marginTop = 0;
+            el.style.marginTop = 0;
         }
     });
 };
